@@ -33,7 +33,14 @@
     transform: translateX(-100vw);
   }
 
-
+  .overlay-slide-right {
+    transition: all 0.4s ease-in-out;
+    transform: translateX(0);
+  }
+  .overlay-slide-left {
+    transition: all 0.8s ease-in-out 0.8s;
+    transform: translateX(-100vw);
+  }
 
 
 
