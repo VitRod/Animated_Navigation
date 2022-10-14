@@ -15,7 +15,7 @@
 
   body {
     margin: 0;
-    background: #000;
+    background: rgb(245, 230, 19);
     font-family: 'Bebas Neue', cursive;
     font-size: 15px;
   }
@@ -29,7 +29,7 @@
     left: 0;
     width: 100vw;
     height: 100vh;
-    background-color: rgba(0,0,0,0.7);
+    background-color: rgba(51, 80, 243, 0.7);
     transform: translateX(-100vw);
   }
 
