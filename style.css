@@ -232,7 +232,14 @@ section#about {
   background-blend-mode: multiply;
 }
 
-
+section#skills {
+  background-image: url("bg3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  /* background-color: var(--navColor3); */
+  background-blend-mode: multiply;
+}
 
 
 
