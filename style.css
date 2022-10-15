@@ -241,7 +241,14 @@ section#skills {
   background-blend-mode: multiply;
 }
 
-
+section#projects {
+  background-image: url("bg4.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: var(--navColor4);
+  background-blend-mode: multiply;
+}
 
 
 
