@@ -187,7 +187,10 @@ nav, nav ul {
   opacity: 0;
 }
 
-
+/* Rotate last bar */
+.change .bar3 {
+  transform: rotate(45deg) translate(-6px, -8px);
+}
 
 
 
