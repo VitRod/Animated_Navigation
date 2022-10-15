@@ -250,8 +250,27 @@ section#projects {
   background-blend-mode: multiply;
 }
 
+section#contact {
+  background-image: url("bg5.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  /* background-color: var(--navColor5); */
+  background-blend-mode: multiply;
+}
 
+/* Media Query: Large Smartphone (Vertical) */
+@media (max-width: 600px) {
+  section#home a {
+    top: 1rem;
+    left: 1rem;
+  }
 
+  .menu-bars {
+    top: 0.5rem;
+    right: 1rem;
+  }
+}
 
 
 
