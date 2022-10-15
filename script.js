@@ -35,6 +35,11 @@ function navAnimate(dir1,dir2) {
     }
   }
 
+// event listeners
+menuBars.addEventListener('click', toggleNav);
+navItms.forEach((nav) => {
+  nav.addEventListener('click', toggleNav);
+});
 
 
 
