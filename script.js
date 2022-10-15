@@ -17,7 +17,23 @@ function navAnimate(dir1,dir2) {
     });
   }
 
-
+  function toggleNav() {
+    // toggle menu bars open close
+    menuBars.classList.toggle('change');
+    // toggle 
+    overlay.classList.toggle('overlay-active');
+    if(overlay.classList.contains('overlay-active')){
+      // animate in
+      overlay.classList.replace('overlay-slide-left', 'overlay-slide-right');
+      // Pass paramters to function
+      navAnimate('out','in');
+    } else {
+      // animate out
+      overlay.classList.replace('overlay-slide-right', 'overlay-slide-left');
+      // Pass paramters to function
+      navAnimate('in','out');
+    }
+  }
 
 
 
