@@ -250,7 +250,14 @@ section#projects {
   background-blend-mode: multiply;
 }
 
-
+section#contact {
+  background-image: url("bg5.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: var(--navColor5);
+  background-blend-mode: multiply;
+}
 
 
 
