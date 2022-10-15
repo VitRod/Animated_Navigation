@@ -182,7 +182,10 @@ nav, nav ul {
   transform: rotate(-45deg) translate(-7px, 8px);
 }
 
-
+/* Fade out the second bar */
+.change .bar2 {
+  opacity: 0;
+}
 
 
 
