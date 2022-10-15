@@ -211,9 +211,26 @@ section#home {
   background-position: center center;
 }
 
+section#home a {
+  position: absolute;
+  z-index: 2;
+  top: 1.5rem;
+  left: 1.5rem;
+  text-decoration: none;
+  font-size: 2rem;
+  padding-bottom: 5px;
+  color: var(--primaryColor);
+  border-bottom: 1px solid var(--primaryColor);
+}
 
-
-
+section#about {
+  background-image: url("bg2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  /* background-color: var(--navColor2); */
+  background-blend-mode: multiply;
+}
 
 
 
