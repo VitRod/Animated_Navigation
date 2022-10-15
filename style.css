@@ -206,7 +206,7 @@ section {
 }
 
 section#home {
-  background-image: url("bg1.jpg");
+  background-image: url("img/bg1.jpg");
   background-size: cover;
   background-position: center center;
 }
@@ -224,7 +224,7 @@ section#home a {
 }
 
 section#about {
-  background-image: url("bg2.jpg");
+  background-image: url("img/bg2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -233,7 +233,7 @@ section#about {
 }
 
 section#skills {
-  background-image: url("bg3.jpg");
+  background-image: url("img/bg3.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -242,7 +242,7 @@ section#skills {
 }
 
 section#projects {
-  background-image: url("bg4.jpg");
+  background-image: url("img/bg4.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -251,7 +251,7 @@ section#projects {
 }
 
 section#contact {
-  background-image: url("bg5.jpg");
+  background-image: url("img/bg5.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
